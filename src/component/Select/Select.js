@@ -8,7 +8,7 @@ const Select = (props) => {
             <p>Course Duration: {props.crs.duration}</p>
             <p>Course Price: {props.crs.price} TK</p>
             <button style={{backgroundColor: "green", color: "black", borderRadius: "5px", padding: "7px" }}
-            onClick={()=> props.handleCourse(props.cart)}
+            onClick={()=> props.handleCourse(props.crs)}
             >Enroll Now!</button>
         </div>
     );

@@ -16,7 +16,7 @@ function App() {
     }, []);
     
     const handleCourse = (course)=>{
-        const newCart = [...carts , course];
+        const newCart = ([...carts , course]);
         setCart(newCart)
     }
 
